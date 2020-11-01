@@ -18,7 +18,8 @@ public class DrivingLicense {
         System.out.println("My name is :" + myName);
         System.out.println("Enter the no of Agents");
         agents = scanner.nextInt();
-        System.out.println("No of Agents available:" + agents);
+    //    System.out.println("No of Agents available:" + agents);
+
 
         for (int i = 0; i < 4; i++) {
             customers.add(customerNames[i]);
