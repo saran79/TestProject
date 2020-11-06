@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.Scanner;
 
 public class DrivingLicense1 {
+
     String myName;
     int agents;
     ArrayList<String> customers = new ArrayList<String>();
@@ -56,7 +57,7 @@ public class DrivingLicense1 {
                 System.out.println("My Driving License Processing time is: " + (processTime * 2)+ " Minutes");
             } else {
                 System.out.println("My Driving License Processing time is: " + processTime+ " Minutes");
-            }`
+            }
         } else if (agents == 3) {
             if (indexOfMyName < 3) {
                 System.out.println("My Driving License Processing time is: " + processTime+ " Minutes");
@@ -83,7 +84,6 @@ public class DrivingLicense1 {
                 System.out.println("My Driving License Processing time is: " + (processTime * 4)+ " Minutes");
             else
                 System.out.println("My Driving License Processing time is: " + (processTime * 5)+ " Minutes");
-
         }
     }
 
@@ -94,6 +94,7 @@ public class DrivingLicense1 {
         drivingLicense1.timeTakenForMyLicense();
     }
 }
+
 
 
 
